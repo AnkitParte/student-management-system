@@ -1,0 +1,92 @@
+
+
+
+#name,#course,#unit,#image,#batch{
+    width: 90%;
+    padding: 3px;
+    display: block;
+    margin: 10px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#submit{
+    width: 40%;
+    padding: 10px;
+    /* padding: 5px 8px 5px 8px; */
+    display: block;
+    margin: 10px auto;
+    color: black;
+    font-weight: 600;
+    background-color: cadetblue;
+    border: 0;
+    border-radius: 2px;
+}
+
+#father{
+    width: 30%;
+    margin: auto;
+
+}
+
+#form{
+    
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+#form>div{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+#navbar{
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+
+}
+#navbar>div>p{
+    font-size: large;
+    font-weight: 700;
+}
+#navbar>div>p:nth-child(2){
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+table,td,th{
+    border: 1px solid palevioletred;
+    text-align: left;
+}
+th{
+    margin-left: 5px;
+}
+th,td{
+    padding: 10px;
+}
+tr>th{
+    background-color: lightblue;
+    color: black;
+}
+
+#tableImage{
+    /* display: table-cell;
+    vertical-align: inherit; */
+    width: 10%;
+    padding: 1px;
+}
+#profile{
+    height: 100%;
+    width: 100%;
+}
+
